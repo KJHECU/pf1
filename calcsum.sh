@@ -1,4 +1,5 @@
 #!/bin/bash
+# Kyle Hicks 104031615
 
 # This script takes 3 numbers from command line and stores the sum in a variable named threesum. 
 

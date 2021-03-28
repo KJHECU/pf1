@@ -1,5 +1,6 @@
 #!/bin/bash
 # Kyle Hicks 10403615
+
 # set some placeholder values to track counts of empty/not empty files and directories
 ne_file=0
 e_file=0

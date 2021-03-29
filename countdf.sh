@@ -35,5 +35,5 @@ done
 # output the path and count stored in variables
 echo -e "the [$1] directory contains:\n$ne_file files that contain data\n$e_file files that are empty\n$ne_dir non-empty directories\n$e_dir empty directories"
 
-
+exit 0
 

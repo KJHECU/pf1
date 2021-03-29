@@ -11,7 +11,7 @@ until [ "$rerun" = true ]; do
 
 read -p "please provide a pattern to be searched: " pattern
 read -p "Enter [1] to search for whole word match or [2] for any match: " match
-read -p "Enter [1] for rows that contain the search term or [2] for rows which exclude the search term: " inverted
+read -p "Enter [1] for rows that contain the search term or [2] for inverted rows which exclude the search term: " inverted
 
  # if ANY match and NOT INVERTED then output rows
     if [[ $match -eq "2" ]] && [[ $inverted -eq "1" ]]; then

@@ -15,6 +15,7 @@ until [ "$tested" = true ]; do
         if [ $num -eq 20 ] || [ $num -eq 40 ]; then
         echo You provided a valid number, script exiting ....
         tested=true
+        exit 0
         else    
         echo Please provide a valid number
         fi
